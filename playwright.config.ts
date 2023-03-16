@@ -1,13 +1,10 @@
 import { defineConfig, devices } from '@playwright/test';
-import * as fs from 'fs';
 
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
 require('dotenv').config();
-
-const configData = JSON.parse(fs.readFileSync('config.json', 'utf8'));
 
 /**
  * See https://playwright.dev/docs/test-configuration.
