@@ -1,0 +1,24 @@
+{
+  "name": "trellobup",
+  "version": "1.0.0",
+  "description": "A playwright script to back up trello",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackrepos/trellobup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackrepos/trellobup/issues"
+  },
+  "homepage": "https://github.com/jackrepos/trellobup#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.31.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}

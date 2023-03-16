@@ -1,0 +1,18 @@
+{
+    "trello": {
+        "username": "",
+        "password": "",
+        "url": "",
+        "links": [
+            ""
+        ]
+    },
+    "raindrop": {
+        "username": "",
+        "password": "",
+        "url": "",
+        "links": [
+            ""
+        ]
+    }
+}
