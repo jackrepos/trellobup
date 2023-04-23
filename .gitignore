@@ -106,3 +106,5 @@ dist
 /playwright-report/
 /playwright/.cache/
 config.json
+
+output/

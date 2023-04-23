@@ -54,6 +54,22 @@ test('Go to Game Dev test', async ({ page }) => {
   // Expect the page to contain a h1 with the text "Game Dev"
   await expect(page.locator('h1')).toHaveText('Game Dev');
 
+  // Save the page content to a file
+  // const htmlContent = await page.content();
+  // await fs.writeFile('output/gamedev.html', htmlContent, (err) => {
+  //   if (err) throw err;
+  //   console.log('The file has been saved!');
+  // });
+
+  // Take screenshot
+  // await page.screenshot({ path: 'output/screenshot-gamedev.png' });
+
   // await expect(page.locator('.board-canvas')).toHaveText("Prendre une pause toutes les 2h");
   // await expect(page.locator('.list-card-title')).toHaveText("Prendre une pause toutes les 2h");
+
+  // await page.getByRole('button', { name: 'Show menu' }).click();
+  // await page.getByRole('link', { name: ' More' }).click();
+  // await page.getByRole('link', { name: ' Print and export' }).click();
+  // await page.getByRole('link', { name: 'Export as JSON' }).click();
+
 });
